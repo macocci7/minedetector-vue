@@ -8,7 +8,7 @@ defineProps({ user: Object });
 <template>
   <AppLayout>
     <Head title="Welcome" />
-    <h1>Welcome</h1>
-    <p>Hello {{ user.name }}, welcome to your first Inertia app!</p>
+    <h1 class="px-4 py-2 text-4xl text-gray-600 hover:text-indigo-600">Welcome</h1>
+    <p class="px-4 py-2">Hello {{ user.name }}, welcome to your first Inertia app!</p>
   </AppLayout>
 </template>
